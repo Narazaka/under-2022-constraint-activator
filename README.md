@@ -1,22 +1,26 @@
 # Under 2022 Constraint Activator
 
-desc
+Fix `Constraint.constraintActive` when importing unitypackages from Unity>=2022(m_Active) to Unity<=2021(m_IsContraintActive)
 
 ## Install
 
-### VCC用インストーラーunitypackageによる方法（おすすめ）
+### by OpenUPM
 
-https://github.com/Narazaka/under-2022-constraint-activator/releases/latest から `net.narazaka.unity.under-2022-constraint-activator-installer.zip` をダウンロードして解凍し、対象のプロジェクトにインポートする。
+See [OpenUPM page](https://openupm.com/packages/net.narazaka.unity.under-2022-constraint-activator/)
 
-### VCCによる方法
+### by using the installer UnityPackage for VCC (Recommended for VRChat project)
 
-1. https://vpm.narazaka.net/ から「Add to VCC」ボタンを押してリポジトリをVCCにインストールします。
-2. VCCでSettings→Packages→Installed Repositoriesの一覧中で「Narazaka VPM Listing」にチェックが付いていることを確認します。
-3. アバタープロジェクトの「Manage Project」から「Under 2022 Constraint Activator」をインストールします。
+Download and unzip `net.narazaka.unity.under-2022-constraint-activator-installer.zip` from [https://github.com/Narazaka/under-2022-constraint-activator/releases/latest](https://github.com/Narazaka/under-2022-constraint-activator/releases/latest), then import it into your target project.
+
+### by using VCC
+
+1. Click the "Add to VCC" button on [https://vpm.narazaka.net/](https://vpm.narazaka.net/) to install the repository into VCC.
+2. In VCC, go to Settings → Packages → Installed Repositories, and make sure that "Narazaka VPM Listing" is checked.
+3. From the "Manage Project" section of your avatar project, install "Under 2022 Constraint Activator".
 
 ## Usage
 
-TODO
+Simply Import or Reimport prefabs.
 
 ## License
 

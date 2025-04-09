@@ -2,7 +2,7 @@
   "name": "net.narazaka.unity.under-2022-constraint-activator",
   "version": "1.0.0",
   "displayName": "Under 2022 Constraint Activator",
-  "description": "Under 2022 Constraint Activator",
+  "description": "Fix `Constraint.constraintActive` when importing unitypackages from Unity>=2022(m_Active) to Unity<=2021(m_IsContraintActive)",
   "author": {
     "name": "Narazaka",
     "url": "https://github.com/Narazaka"
@@ -10,9 +10,5 @@
   "license": "Zlib",
   "type": "tool",
   "url" : "https://github.com/Narazaka/under-2022-constraint-activator.git",
-  "unity": "2022.3",
-  "vpmDependencies": {
-    "com.vrchat.avatars": ">=3.7.5",
-    "com.vrchat.worlds": ">=3.7.5"
-  }
+  "unity": "2019.4"
 }
