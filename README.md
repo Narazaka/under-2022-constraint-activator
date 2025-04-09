@@ -2,6 +2,8 @@
 
 Fix `Constraint.constraintActive` when importing unitypackages from Unity>=2022(m_Active) to Unity<=2021(m_IsContraintActive)
 
+**Experimental!**
+
 ## Install
 
 ### by OpenUPM
