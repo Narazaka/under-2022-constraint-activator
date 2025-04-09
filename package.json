@@ -1,6 +1,6 @@
 {
   "name": "net.narazaka.unity.under-2022-constraint-activator",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "displayName": "Under 2022 Constraint Activator",
   "description": "Fix `Constraint.constraintActive` when importing unitypackages from Unity>=2022(m_Active) to Unity<=2021(m_IsContraintActive)",
   "author": {
